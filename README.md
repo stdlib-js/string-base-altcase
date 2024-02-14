@@ -44,6 +44,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/string-base-altcase/tags). For example,
+
+```javascript
 import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@v0.2.0-deno/mod.js';
 ```
 
@@ -73,7 +78,7 @@ str = altcase( 'foo_bar' );
 ## Examples
 
 ```javascript
-import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@v0.2.0-deno/mod.js';
+import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@deno/mod.js';
 
 var str = 'Hello World!';
 var out = altcase( str );
