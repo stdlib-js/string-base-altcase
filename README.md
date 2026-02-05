@@ -44,7 +44,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@esm/index.mjs';
+import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@v0.2.3-esm/index.mjs';
 ```
 
 #### altcase( str )
@@ -78,7 +78,7 @@ str = altcase( 'foo_bar' );
 <body>
 <script type="module">
 
-import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@esm/index.mjs';
+import altcase from 'https://cdn.jsdelivr.net/gh/stdlib-js/string-base-altcase@v0.2.3-esm/index.mjs';
 
 var str = 'Hello World!';
 var out = altcase( str );
